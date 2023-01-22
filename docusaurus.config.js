@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/juanjiTech/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/juanjiTech/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +69,8 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          // {to: '/blog', label: '博客', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
+          {to: '/blog/about-juanji', label: '关于', position: 'left'},
           {
             href: 'https://github.com/juanjiTech/docs',
             label: 'GitHub',
@@ -121,10 +122,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/juanjiTech',
               },
+              {
+                label: '关于我们',
+                to: '/blog/about-juanji',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} JuanjiTech Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} JuanjiTech Inc. Co. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
