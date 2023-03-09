@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} JuanjiTech Inc. Co. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} JuanjiTech Co. Ltd. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
