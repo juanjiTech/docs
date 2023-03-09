@@ -16,5 +16,3 @@
 ## 接入CAS
 
 JuanjiCAS 目前支持 CAS 2.0 协议中的 [`/serviceValidate` 接口](https://apereo.github.io/cas/6.6.x/protocol/CAS-Protocol-V2-Specification.html#25-servicevalidate-cas-20)，卷鸡目前提供 [Golang 版本的 SDK](https://github.com/juanjiTech/juanjiCAS-Go-SDK) 便于您接入 JuanjiCAS。
-
-未完待续······
